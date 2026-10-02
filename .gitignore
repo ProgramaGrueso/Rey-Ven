@@ -1,6 +1,26 @@
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
 dist/
+dist-ssr/
+
+# Environment files
 .env
-.env.*
-*.log
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & System
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
+Thumbs.db
